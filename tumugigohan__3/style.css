@@ -1,0 +1,729 @@
+body{
+  background-image: url(images/background.img.png);
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+
+/*ヘッダー*/
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 20px auto;
+}
+
+.logo img{
+  width: 110px;
+  height: 71px;
+}
+
+.header__menu ul{
+  list-style: none;
+  display: flex;
+}
+
+.header__menu li{
+  margin-left: 20px;
+}
+
+.header__menu a{
+  color: #fc8834;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+/*メインビジュアル*/
+.main-visual{
+  text-align: right;
+  position: relative;
+  height: 770px;
+}
+
+.main-visual img{
+  width: 85%;
+  height: auto;
+  border-radius: 500px 0 0 500px;
+}
+
+h1{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 3%;
+  height: auto;
+  
+}
+
+/*サブタイトル*/
+.sub-title{
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: right;
+  position: absolute;
+  top: 70%;
+  right: 0;
+  padding: 2% 7%;
+}
+
+.sub-title p{
+  color: #fc8834;
+  font-weight: 900;
+  font-size: 20px;
+  text-shadow: 1px 3px 6px #808080;
+  letter-spacing: 3px;
+}
+
+/*定期税込み１*/
+.price-box{
+  position: absolute;
+  background-color: #fc8834;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 502px;
+  height: 167px;
+  top: 90%;
+  margin-left: 88px;
+  margin-bottom: 64px;
+}
+
+.price-box__left{
+  padding: 4%;
+}
+.price-box__left p{
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+.price-box__right p{
+  color: #fff;
+  font-size: 56px;
+  font-weight: bold;
+  padding-top: 10%;
+}
+
+.right--small p{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 0;
+}
+
+/*概要*/
+.service-background{
+  background-image: url(images/da9de22baf4b9b2e9d6eef7635003748ccafe61f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 96px 0 72px;
+ 
+}
+
+.service-background::before{
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #fff;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.service{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.service__explain{
+  text-align: center;
+  margin: 20px;
+}
+
+.service__explain p{
+  text-align: center;
+  font-size: 18px;
+  color: #573001;
+  font-weight: 900;
+  padding: 2% 0;
+}
+
+
+
+.service-flex{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.service__pickup{
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 220px;
+  border: solid 4px #fc8834;
+  border-radius: 30px;
+  padding: 20px 10px;
+  margin: 0 44px;
+  text-align: center;
+}
+
+.service__pickup img{
+  width: 50%;
+}
+
+.service__pickup p{
+  text-align: center;
+  color: #fc8834;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.service__pickup-content p{
+  color: #573001;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10% 3%;
+  line-height: 1.5;
+}
+
+/**/
+.inner_wrapper{
+  max-width: 890px;
+  margin: 0 auto;
+  padding: 0 64px 64px 64px;
+}
+
+/*お客様の悩みの声*/
+.service-2{
+  padding: 88px 0;
+}
+
+.service-2 p{
+  color: #573001;
+  font-weight: 700;
+}
+
+
+.worries{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.worries p{
+  padding: 0;
+  margin: 20px;
+}
+.worries-1{
+  margin-top: 40px;
+}
+.worries-3{
+  margin-top: 20px;
+}
+.worries-4{
+  margin-top: 60px;
+}
+
+.service-2__people{
+  display: flex;
+  justify-content: center;
+}
+
+.service-2__people img{
+  width: 140px;
+  margin: 10px;
+}
+.people-1 img{
+  width: 178px;
+  height: 148px;
+}
+
+.circle-flex{
+  display: flex;
+  justify-content: center;
+}
+.circle-flex img{
+  width: 319px;
+  height: auto;
+}
+
+.circle_2 img{
+  width: 250px;
+}
+
+.mogumogu{
+  text-align: center;
+}
+.mogumogu img{
+  width: 240px;
+}
+
+/*注文するボタン*/
+.tyumon-button{
+  display: flex;
+  justify-content: right;
+}
+
+.button{
+    width: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.button-back{
+  background-color: #fff;
+  padding: 6% 23%;
+  border-radius: 10px;
+  position: absolute;
+  
+}
+.button-back a{
+  font-size: 24px;
+  font-weight: 900;
+  color: #fc8834;
+  text-align: center;
+}
+.circle{
+  width: 80px;
+    height: 80px;
+    background-color: #fc8834;
+    border-radius: 50%;
+    position: absolute;
+    right: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.circle a{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #fff;
+  
+}
+
+
+/*メニュー*/
+.content-background{
+  position: relative;
+  background-image: url(images/content_background.png);
+  max-width: 1015px;
+  border-radius: 30px;
+  margin: 120px auto;
+}
+
+h2{
+  color: #fc8834;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 48px;
+}
+
+/*.menu-icon{
+  display: flex;
+  align-items: center;
+  margin: 40px 0 32px 32px;
+  
+}
+.menu-icon img{
+  width: 100px;
+}
+
+.menu-icon p{
+  color: #573001;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 0 2%;
+}
+.category-button img{
+  width: 56px;
+}*/
+
+/*メニューボタン*/
+.menu{
+  display: flex;
+  align-items: center;
+  margin: 40px 0 32px 32px;
+}
+.menu-category{
+  padding: 2%;
+}
+.menu-category a{
+  text-decoration: underline;
+  color: #573001;
+  font-weight: bold;
+  font-size: 20px;
+}
+.menu__icon{
+  width: 100px;
+  height: 100px;
+  background-color: #fc8834;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 4px #808080;
+}
+
+.menu__icon p{
+  color: #fff;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.menu__circle{
+  width: 56px;
+  height: 56px;
+  background-color: #fc8834;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu__circle a{
+  color: #fff;
+}
+
+
+.menu-flex{
+  display: flex;
+  justify-content: center;
+  background-image: repeating-linear-gradient(90deg, #fc8834, #fc8834 36px, transparent 36px, transparent 70px);
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 100% 5px;
+  padding-bottom: 3%;
+}
+
+.menu-flex__pickup-1{
+  margin-right: 20px;
+}
+
+.menu-flex__pickup-2{
+  margin: 0 20px;/*margin 20pxを２つ消したい消したい*/
+}
+.menu-flex__pickup-3{
+  margin-left: 20px;
+}
+
+
+.menu-title p{
+  text-align: center;
+  color: #573001;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.menu-explain{
+  padding: 5%;
+  margin: 0 10px;
+}
+
+.menu-explain p{
+  text-align: center;
+  color: #573001;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.dotted-line{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.menu-all{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 40px 24px 0 0;
+  padding-bottom: 64px;
+}
+
+.menu-all__text{
+  padding: 2%;
+}
+.menu-all__text a{
+  color: #573001;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/*Ｑ＆Ａ*/
+.q_and_a-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.q_and_a__left{
+  width: 50%;
+  background-image: repeating-linear-gradient(180deg, #fc8834, #fc8834 28px, transparent 28px, transparent 58px);
+  background-position: right top;
+  background-repeat: repeat-y;
+  background-size: 5px 100%;
+  
+}
+
+.q_and_a__left p{
+  text-align: center;
+  padding: 5% 15%;
+  font-size: 15px;
+}
+
+.q_and_a__right{
+  width: 50%;
+  
+}
+.q_and_a__right p{
+  text-align: center;
+  padding: 3% 15%;
+  font-size: 15px;
+}
+
+.q p{
+  font-weight: bold;
+}
+.a p{
+  color: #fc8834;
+  font-weight: bold;
+}
+
+.center_dotted-line{
+  margin-bottom: 56px;
+}
+
+/*.otoiawase-button{
+  margin: 56px auto;
+  text-align: center;
+  padding-bottom: 56px;
+}
+.otoiawase-button img{
+  width: 318px;
+  height: 54px;
+}*/
+
+.otoiawase-button{
+  width: 318px;
+  height: 54px;
+  background-color: #fc8834;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 56px auto;
+}
+
+.otoiawase-button p{
+  color: #fff;
+  font-size: 16px;
+}
+
+
+/*お客様のお声*/
+.customer-voice_flex{
+  display: flex;
+  padding-bottom: 48px;
+}
+
+.customer-voice_left{
+  display: flex;
+  width: 50%;
+}
+.customer-voice_left img{
+  width: 80%;
+  height: auto;
+}
+
+.customer_1{
+  padding-top: 50%;
+}
+
+.customer_1 img{
+  width: 100%;
+}
+
+.customer-voice_right{
+  display: flex;
+  width: 50%;
+}
+.customer-voice_right img{
+  width: 80%;
+}
+
+.customer_2{
+  padding-top: 50%;
+}
+.customer_2 img{
+  width: 100%;
+}
+
+
+
+.last-content_background{
+  background-image: url(images/last_content.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 88px;
+  padding-bottom: 32px;
+}
+
+.inner_wrapper--2{
+  max-width: 1015px;
+  margin: 0 auto;
+}
+
+.last-content_background h2{
+  color: #573001;
+}
+
+.last-content_logo{
+  text-align: center;
+}
+
+.last-content_logo img{
+  width: 141px;
+  height: auto;
+}
+
+.last-content_flex{
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.label-back-ground{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  width: 323px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin: 12px;
+}
+.label-back-ground p{
+  color: #573001;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.font-small p{
+  font-size: 24px;
+}
+
+.last-content_flex--3{
+  display: flex;
+}
+
+.box-narrow{
+  padding: 0;
+}
+
+.box-narrow p{
+  font-size: 20px;
+}
+
+   /*定期税込み２*/
+.price-box--2{
+  margin-top: 20px;
+  background-color: #fc8834;
+  border-radius: 20px;
+  width: 600px;
+  height: 130px;
+}
+.price-box--2 p{
+  color: #fff;
+}
+.price-box--2__flex{
+  display: flex;
+  justify-content: center;
+  border-bottom: #fff 2px solid;
+  align-items: center;
+  margin: 0 10%;
+}
+.left-box--2{
+  padding: 4%;
+}
+.left-box--2 p{
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.right-box--2 p{
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 5%;
+}
+.right-box_small--2 p{
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.under{
+  display: flex;
+  justify-content: center;
+  
+}
+.under p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.tyumon-button__2{
+  margin: 48px 0;
+}
+
+
+
+/*フッター*/
+
+footer{
+ padding: 48px 0 64px 0;
+ max-width: 1015px;
+ margin: 0 auto;
+}
+.footer-flex{
+  display: flex;
+  justify-content: left;
+}
+.footer-flex__1 a{
+  display: block;
+  justify-content: left;
+}
+.footer-flex__2 a{
+  display: block;
+  justify-content: left;
+}
+
+footer p{
+  color: #fc8834;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-right: 40px;
+  text-decoration: underline;
+}
+
+
+.footer-logo img{
+  width: 115px;
+  height: auto;
+}
+
+.footer-logo{
+  text-align: right;
+}
